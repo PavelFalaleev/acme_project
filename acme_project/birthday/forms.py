@@ -11,3 +11,4 @@ class BirthdayForm(forms.ModelForm):
         widgets = {
             'birthday': forms.DateInput(attrs={'type': 'date'})
         }
+
